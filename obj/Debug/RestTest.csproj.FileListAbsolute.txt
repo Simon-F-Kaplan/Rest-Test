@@ -1,0 +1,6 @@
+D:\Scratchpad\SF\RestTest\bin\Debug\RestTest.dll.config
+D:\Scratchpad\SF\RestTest\bin\Debug\RestTest.dll
+D:\Scratchpad\SF\RestTest\bin\Debug\RestTest.pdb
+D:\Scratchpad\SF\RestTest\obj\Debug\RestTest.csprojResolveAssemblyReference.cache
+D:\Scratchpad\SF\RestTest\obj\Debug\RestTest.dll
+D:\Scratchpad\SF\RestTest\obj\Debug\RestTest.pdb

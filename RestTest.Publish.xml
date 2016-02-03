@@ -1,0 +1,9 @@
+<publishData>
+  <publishTarget publishUrl="http://resttest/">
+    <file relUrl="bin/RestTest.pdb" publishTime="12/09/2015 17:00:55" />
+    <file relUrl="RestTest.User.svc" publishTime="12/09/2015 17:00:55" />
+    <file relUrl="bin/RestTest.dll" publishTime="12/09/2015 17:00:55" />
+    <file relUrl="Web.config" publishTime="12/09/2015 17:00:41" />
+    <file relUrl="bin/RestTest.dll.config" publishTime="12/09/2015 17:00:41" />
+  </publishTarget>
+</publishData>
