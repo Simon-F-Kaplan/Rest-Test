@@ -16,7 +16,8 @@ namespace Services
         {
             return string.Format("You entered: {0}", value);
         }
-        [WebInvoke(Method = "Get", ResponseFormat = WebMessageFormat.Json, UriTemplate = "data/{detail}")] 
+
+        //[WebInvoke(Method = "Get", ResponseFormat = WebMessageFormat.Json, UriTemplate = "data/{detail}")] 
         public string ValidateUser(string detail)
          { 
              var ser = new System.Web.Script.Serialization.JavaScriptSerializer(); 
