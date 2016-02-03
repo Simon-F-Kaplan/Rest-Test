@@ -19,7 +19,8 @@ namespace Services
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
-        // TODO: Add your service operations here
+        [OperationContract]
+        string ValidateUser(string detail);
     }
 
 

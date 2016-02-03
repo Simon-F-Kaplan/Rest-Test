@@ -16,8 +16,15 @@ namespace Services
         {
             return string.Format("You entered: {0}", value);
         }
+        [WebInvoke(Method = "Get", ResponseFormat = WebMessageFormat.Json, UriTemplate = "data/{detail}")] 
+        public string ValidateUser(string detail)
+         { 
+             var ser = new System.Web.Script.Serialization.JavaScriptSerializer(); 
+             var result = ser.Deserialize<string>(detail); 
+             return Enums.ValidationStatus.Valid.ToString(); 
+         }
 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
+    public CompositeType GetDataUsingDataContract(CompositeType composite)
         {
             if (composite == null)
             {
